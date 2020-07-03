@@ -9,4 +9,4 @@ Ce qu'il est requis pour commencer avec votre projet...
 
 _exemple_ : kadladlmdald
 
-* [fichier.css](http://www.google.com) - google
+- [fichier.css](http://www.google.com) - google
