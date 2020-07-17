@@ -18,13 +18,12 @@ Voici une image qui illustre l'architecture de l'application :
 Il y a quelques micro services : 
 
 ### Liste des micro services :
-* 1 er micro service `ConfigurationService` : c'est un micro service qui contient un fichier de configurations, il est lié à un dossier de config sur git.
+* 1 er micro service `ConfigurationService` : c'est un micro service qui contient un fichier de configurations, il est lié à un repository de configuration sur git.
 * 2 ème micro service `ServiceDiscovery` : c'est un micro service qui contient toutes les informations de tous les autres micro services `up/down`...
-* 3 ème micro service `ServiceGateway` avec `Zull` : Il joue le rôle d'un proxy; c'est la première porte pour utiliser l'application. Il fait aussi la gestion de `l’authentification`.
+* 3 ème micro service `ServiceGateway` avec `Zull` : Il joue le rôle d'un proxy; c'est la première porte pour utiliser l'application. Il y a aussi la gestion de `l’authentification`.
 * 4 ème micro service `UserManagement` : Ce micro service est destiné pour faire la gestion des utilisateurs (`Administrateur`, `Docteur`, `Patient`)de l'application ``DoctoRIF``.
-* Un dossier git pour la configuration : un dossier `Git` contient les configurations du projet. Il est lié au micro service `ConfigurationService`.
-Ceci est un lien vers ce dossier git qui contient la configuration ==> 
-[Configuration Git](https://github.com/ramzid/doctorifConfigurationbackend) 
+* Un repository git pour la configuration : c'est un repository `Git` qui contient les configurations du projet. Il est lié au micro service `ConfigurationService`.
+[Configuration Git](https://github.com/ramzid/doctorifConfigurationbackend) ceci est un lien vers ce repository.
 
 ## Comment exécuter le projet 
 * 1 ère chose : exécutez le service `ConfigurationService` en premier lieux, en cliquant à droit sur le service puis sur le bouton `run`.
