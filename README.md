@@ -13,7 +13,7 @@ L'application est devisée en deux parties, une partie backend `Spring boot + mi
 ## Backend
 Le côté backend est composé d'applications Spring Boot organisées selon l'architecture du micro service.
 Voici une image qui illustre l'architecture de l'application : 
-![](img/architecture.PNG?raw=true)
+![](architecture.PNG?raw=true)
 
 Il y a quelques micro services : 
 
@@ -32,5 +32,5 @@ Ceci est un lien vers ce dossier git qui contient la configuration ==>
 * 3 ème chose : exécutez le service `ServiceGateway`.
 * 4 ème chose : exécutez le service `UserManagement`.
 * Allez dans votre navigateur et tapez `http://localhost:8761/`, une page comme cela va apparaître.
-![](img/services.PNG?raw=true)
+![](services.PNG?raw=true)
 Elle contient un tableau avec la liste de micro services lancés avec l'adresse et le port de chaque micro service.
