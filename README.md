@@ -23,6 +23,8 @@ Il y a quelques micro services :
 * 3 ème micro service `ServiceGateway` avec `Zull` : Il joue le rôle d'un proxy; c'est la première porte pour utiliser l'application. Il fait aussi la gestion de `l’authentification`.
 * 4 ème micro service `UserManagement` : Ce micro service est destiné pour faire la gestion des utilisateurs (`Administrateur`, `Docteur`, `Patient`)de l'application ``DoctoRIF``.
 * Un dossier git pour la configuration : un dossier `Git` contient les configurations du projet. Il est lié au micro service `ConfigurationService`.
+Ceci est un lien vers ce dossier git qui contient la configuration ==> 
+[Configuration Git](https://github.com/ramzid/doctorifConfigurationbackend) 
 
 ## Comment exécuter le projet 
 * 1 ère chose : exécutez le service `ConfigurationService` en premier lieux, en cliquant à droit sur le service puis sur le bouton `run`.
@@ -32,6 +34,3 @@ Il y a quelques micro services :
 * Allez dans votre navigateur et tapez `http://localhost:8761/`, une page comme cela va apparaître.
 ![](img/services.PNG?raw=true)
 Elle contient un tableau avec la liste de micro services lancés avec l'adresse et le port de chaque micro service.
-
-
-* [PostgreSQL 10](https://www.postgresql.org/download/) 
